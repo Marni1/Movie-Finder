@@ -1,0 +1,21 @@
+.searchBar {
+    color: silver;
+    background-color: rgb(90, 88, 88);
+    border-color: darkgray;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    border-color: black;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: silver;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: silver;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color:  silver;
+  }

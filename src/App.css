@@ -1,0 +1,19 @@
+.site-title{
+  font-size: 72px;
+  font-family: 'Silkscreen', cursive;
+  background: -webkit-linear-gradient(rgb(225, 0, 255), rgb(12, 12, 12));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body{
+  background: linear-gradient(to right, rgb(47, 19, 46), rgb(0, 0, 0));
+}
+
+.movieCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1 {
+  color: white;
+}

@@ -1,0 +1,58 @@
+.Card{
+    position: relative;
+    display: inline-block;
+    inline-size: min-content;
+    padding: 10px;
+    margin: 10px;
+    min-height: 300px;
+    max-width: 15%;
+    min-width: 15%;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(26, 5, 18), rgb(85, 8, 66));
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    
+    
+}
+
+img{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.backCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    opacity: 0;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(26, 5, 18), rgb(85, 8, 66));
+    color: silver;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    overflow-y: auto;
+    
+
+}
+
+.Card .backCard:hover{
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+
+.summ{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.star{
+    color: yellow;
+    font-size: 1rem;
+}
